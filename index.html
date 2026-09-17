@@ -20,32 +20,9 @@
     --display:'Chakra Petch',Arial,sans-serif;
     --body:'IBM Plex Sans',-apple-system,Segoe UI,sans-serif;
     --mono:'IBM Plex Mono',SFMono-Regular,Menlo,monospace;
-    color-scheme: light dark;
+    color-scheme: light;
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --ink:#E7EEF5;
-      --ink-dim:#93AEC9;
-      --paper:#0A1622;
-      --surface:#12222F;
-      --surface-2:#182C3B;
-      --line:rgba(140,180,215,0.18);
-      --accent:#5B9FE3;
-      --accent-ink:#081420;
-      --ok:#4FBBA3;
-    }
-  }
-  :root[data-theme="dark"]{
-    --ink:#E7EEF5;
-    --ink-dim:#93AEC9;
-    --paper:#0A1622;
-    --surface:#12222F;
-    --surface-2:#182C3B;
-    --line:rgba(140,180,215,0.18);
-    --accent:#5B9FE3;
-    --accent-ink:#081420;
-    --ok:#4FBBA3;
-  }
+  /* Day mode only — light palette is committed to regardless of viewer/OS theme. */
 
   *{box-sizing:border-box;}
   html,body{margin:0;}
