@@ -1,11 +1,11 @@
 # Rakesh Chaudhari — DevOps & Cloud Infrastructure Portfolio
 
 **Sr. DevOps Engineer, 6+ years, AWS & Azure, Kubernetes (CKA/CKS certified), Terraform.**
-I help startups and SMBs move off fragile, hand-run infrastructure onto secure, automated, production-grade cloud platforms.
+I design, migrate, and operate secure, automated cloud infrastructure — production Kubernetes, Infrastructure-as-Code, CI/CD, and observability.
 
 📧 [C.rakesh31196@gmail.com](mailto:C.rakesh31196@gmail.com) · 🔗 [linkedin.com/in/crak](https://www.linkedin.com/in/crak) · 👤 [github.com/Crak31196](https://github.com/Crak31196)
 
-> Every project below is a real, runnable MVP with tests and CI — not a tutorial clone. Sample data, demo workloads, and any numbers are explicitly labeled as demo/illustrative. No client names, employers, or fabricated metrics appear anywhere in this portfolio.
+> Every project below is a real, runnable MVP with tests and CI — not a tutorial clone. Sample data, demo workloads, and any numbers are explicitly labeled as demo/illustrative. No fabricated names, employers, or metrics appear anywhere in this portfolio.
 
 ---
 
@@ -28,6 +28,6 @@ See **[PORTFOLIO.md](./PORTFOLIO.md)** for a breakdown by service type, with fea
 
 Full profile: [github.com/Crak31196](https://github.com/Crak31196) · [linkedin.com/in/crak](https://www.linkedin.com/in/crak)
 
-## Working With Me
+## Connect
 
-I take on freelance/contract engagements for cloud migrations, Kubernetes setup and hardening, CI/CD pipeline builds, Infrastructure-as-Code baselines, and observability/incident-readiness implementations. Reach out via [email](mailto:C.rakesh31196@gmail.com) or [LinkedIn](https://www.linkedin.com/in/crak) to discuss a project.
+Reach out via [email](mailto:C.rakesh31196@gmail.com) or [LinkedIn](https://www.linkedin.com/in/crak).
