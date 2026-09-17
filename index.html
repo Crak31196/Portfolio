@@ -63,6 +63,11 @@
             mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
   }
   .hero-inner{position:relative;}
+  .hero-top{display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+  .avatar{
+    width:clamp(64px,14vw,96px);height:clamp(64px,14vw,96px);border-radius:50%;
+    object-fit:cover;border:2px solid var(--line);flex:none;background:var(--surface);
+  }
   .eyebrow{
     font-family:var(--mono);font-size:12.5px;color:var(--ok);
     display:inline-flex;align-items:center;gap:8px;
@@ -70,7 +75,8 @@
     padding:5px 10px;border-radius:var(--radius);
   }
   .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--ok);flex:none;}
-  .hero h1{font-size:clamp(2.3rem,6vw,3.6rem);margin-top:18px;font-weight:700;}
+  .hero-top .eyebrow{margin-top:0;}
+  .hero h1{font-size:clamp(2.3rem,6vw,3.6rem);margin-top:10px;font-weight:700;}
   .hero .role{
     font-family:var(--mono);font-size:clamp(0.95rem,2.2vw,1.15rem);color:var(--accent);
     margin-top:10px;font-weight:500;
@@ -210,9 +216,14 @@
 
 <div class="hero">
   <div class="wrap hero-inner">
-    <span class="eyebrow"><span class="dot"></span>currently: Senior DevOps Engineer</span>
-    <h1>Rakesh Chaudhari</h1>
-    <div class="role">Senior DevOps Engineer — Kubernetes · Terraform · Cloud Infrastructure</div>
+    <div class="hero-top">
+      <img class="avatar" src="assets/rakesh-avatar.png" alt="Rakesh Chaudhari" width="96" height="96">
+      <div>
+        <span class="eyebrow"><span class="dot"></span>currently: Senior DevOps Engineer</span>
+        <h1>Rakesh Chaudhari</h1>
+        <div class="role">Senior DevOps Engineer — Kubernetes · Terraform · Cloud Infrastructure</div>
+      </div>
+    </div>
     <p class="lede">I design and operate secure, automated infrastructure — Kubernetes migrations, Infrastructure-as-Code baselines, CI/CD pipelines, and observability that catches incidents before they reach production.</p>
     <div class="hero-ctas">
       <a class="btn primary" href="#projects">View projects</a>
