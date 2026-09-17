@@ -8,7 +8,7 @@ Each service line below maps to one flagship project. Every repo ships as a real
 
 **Project:** [EKS Migration & Helm Deployment Toolkit](https://github.com/Crak31196/eks-migration-toolkit)
 
-**Client problem:** "We're running Kubernetes ourselves on raw EC2 instances. It's fragile, hard to scale, and nobody's sure it's secure."
+**Problem it solves:** "We're running Kubernetes ourselves on raw EC2 instances. It's fragile, hard to scale, and nobody's sure it's secure."
 
 **What it demonstrates:**
 
@@ -25,7 +25,7 @@ Each service line below maps to one flagship project. Every repo ships as a real
 
 **Project:** [Multi-Cloud Terraform Landing Zone](https://github.com/Crak31196/terraform-multicloud-landing-zone)
 
-**Client problem:** "We just created our AWS/Azure account and have no idea what a secure baseline even looks like."
+**Problem it solves:** "We just created our AWS/Azure account and have no idea what a secure baseline even looks like."
 
 **What it demonstrates:**
 
@@ -41,7 +41,7 @@ Each service line below maps to one flagship project. Every repo ships as a real
 
 **Project:** [CI/CD Pipeline Accelerator with Security Gates](https://github.com/Crak31196/cicd-pipeline-accelerator)
 
-**Client problem:** "Our pipeline takes forever, and we're not scanning our images for vulnerabilities before they ship."
+**Problem it solves:** "Our pipeline takes forever, and we're not scanning our images for vulnerabilities before they ship."
 
 **What it demonstrates:**
 
@@ -57,7 +57,7 @@ Each service line below maps to one flagship project. Every repo ships as a real
 
 **Project:** [Kubernetes Observability & Alerting Stack](https://github.com/Crak31196/k8s-observability-stack)
 
-**Client problem:** "We find out about outages from our customers, not our monitoring — and we have no consistent incident process."
+**Problem it solves:** "We find out about outages from our customers, not our monitoring — and we have no consistent incident process."
 
 **What it demonstrates:**
 
